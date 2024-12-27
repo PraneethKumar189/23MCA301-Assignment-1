@@ -554,7 +554,34 @@ video {
   display: none;
 }
 
-.text-blue-700 {
-  --tw-text-opacity: 1;
-  color: rgb(29 78 216 / var(--tw-text-opacity, 1));
+.h-\[100px\] {
+  height: 100px;
+}
+
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.bg-bgi {
+  background-image: url('./assets/bg2.jpg');
+}
+
+.font-majime {
+  font-family: majime, san-serif;
+}
+
+@font-face{
+  font-family: 'majime';
+
+  src:url('./assets/Majime.ttf')format('truetype');
 }
