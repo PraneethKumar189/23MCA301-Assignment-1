@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Alerts Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="mb-4">Bootstrap Alerts Documentation</h1>
+        
+        <!-- Basic Alerts -->
+        <section class="mb-5">
+            <h2 class="h4 mb-3">Basic Alert Variants</h2>
+            <p class="text-muted mb-3">Bootstrap provides eight different alert styles to convey different types of messages:</p>
+            
+            <div class="alert alert-primary" role="alert">
+                A primary alert - Often used for main information messages
+            </div>
+            <div class="alert alert-secondary" role="alert">
+                A secondary alert - Used for supplementary information
+            </div>
+            <div class="alert alert-success" role="alert">
+                A success alert - Indicates a successful or positive action
+            </div>
+            <div class="alert alert-danger" role="alert">
+                A danger alert - Warns about dangerous or negative actions
+            </div>
+            <div class="alert alert-warning" role="alert">
+                A warning alert - Used for warning messages that need attention
+            </div>
+            <div class="alert alert-info" role="alert">
+                An info alert - Provides general information to the user
+            </div>
+            <div class="alert alert-light" role="alert">
+                A light alert - Subtle alert with light background
+            </div>
+            <div class="alert alert-dark" role="alert">
+                A dark alert - Subtle alert with dark background
+            </div>
+        </section>
+
+        <!-- Alerts with Additional Content -->
+        <section class="mb-5">
+            <h2 class="h4 mb-3">Alerts with Additional Content</h2>
+            <p class="text-muted mb-3">Alerts can contain additional HTML elements like headings, paragraphs, and dividers:</p>
+
+            <div class="alert alert-success" role="alert">
+                <h4 class="alert-heading">Well done!</h4>
+                <p>You successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                <hr>
+                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+            </div>
+        </section>
+
+        <!-- Dismissible Alerts -->
+        <section class="mb-5">
+            <h2 class="h4 mb-3">Dismissible Alerts</h2>
+            <p class="text-muted mb-3">Add a close button to make alerts dismissible:</p>
+
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            
+            <div class="alert alert-info alert-dismissible fade show" role="alert">
+                <strong>Heads up!</strong> This alert can be dismissed by clicking the × button.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </section>
+
+        <!-- Alerts with Links -->
+        <section class="mb-5">
+            <h2 class="h4 mb-3">Alerts with Links</h2>
+            <p class="text-muted mb-3">Use <code>.alert-link</code> class to add matching colored links within alerts:</p>
+
+            <div class="alert alert-primary" role="alert">
+                A simple primary alert with <a href="#" class="alert-link">an example link</a>.
+            </div>
+            <div class="alert alert-success" role="alert">
+                A simple success alert with <a href="#" class="alert-link">an example link</a>.
+            </div>
+            <div class="alert alert-danger" role="alert">
+                A simple danger alert with <a href="#" class="alert-link">an example link</a>.
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

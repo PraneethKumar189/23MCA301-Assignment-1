@@ -1,0 +1,105 @@
+BOOTSTRAP MODAL CLASSES DOCUMENTATION
+
+1. CONTAINER AND LAYOUT CLASSES
+===============================
+.container
+- Main container class for consistent padding and responsive behavior
+- Centers content and provides max-width at various breakpoints
+
+2. MODAL STRUCTURAL CLASSES
+==========================
+.modal
+- Main modal container class
+- Creates the modal wrapper and default styling
+
+.modal-dialog
+- Positions the modal and sets default width
+- Creates proper spacing and alignment
+
+.modal-content
+- Container for modal's header, body, and footer
+- Provides border, background, and basic styling
+
+.modal-header
+- Container for modal title and close button
+- Adds padding and border-bottom
+
+.modal-body
+- Main content area of the modal
+- Provides proper padding for content
+
+.modal-footer
+- Container for modal's action buttons
+- Adds padding and border-top
+
+3. MODAL MODIFIER CLASSES
+========================
+.modal-sm
+- Creates a small modal (max-width: 300px)
+
+.modal-lg
+- Creates a large modal (max-width: 800px)
+
+.modal-xl
+- Creates an extra-large modal (max-width: 1140px)
+
+.modal-dialog-centered
+- Vertically centers the modal on screen
+
+.modal-dialog-scrollable
+- Adds scrolling to modal body when content exceeds viewport
+
+.modal-static
+- Disables modal closing when clicking outside
+
+4. BUTTON CLASSES
+================
+.btn
+- Base button class
+- Provides basic button styling
+
+.btn-primary
+- Primary action button (usually blue)
+- Used for main actions
+
+.btn-secondary
+- Secondary action button (usually gray)
+- Used for alternative actions
+
+.btn-close
+- Styling for modal close button
+- Adds X icon and hover effects
+
+5. UTILITY CLASSES
+=================
+.fade
+- Adds fade animation effect to modal
+
+.show
+- Makes modal visible when combined with .fade
+
+6. ATTRIBUTE CLASSES
+===================
+data-bs-toggle="modal"
+- Triggers modal functionality
+- Used on buttons/elements that open modal
+
+data-bs-target="#modalId"
+- Specifies which modal to open
+- Links trigger element to modal
+
+data-bs-dismiss="modal"
+- Closes the modal when clicked
+- Usually used on close buttons
+
+7. ACCESSIBILITY CLASSES
+=======================
+aria-labelledby
+- Links modal to its title for screen readers
+
+aria-hidden
+- Hides modal from screen readers when not visible
+
+aria-label
+- Provides accessible label for buttons/controls
+
